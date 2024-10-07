@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: simple-task-management-system
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/simple_task_management
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: your_password
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+server:
+  port: 8085
